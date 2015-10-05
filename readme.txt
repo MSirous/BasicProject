@@ -1,1 +1,2 @@
-This is a test 
+Hey it's my first project :)
+
