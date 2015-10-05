@@ -1,0 +1,73 @@
+﻿
+
+
+html{height: 100%; width: 100%;}
+body{
+	width: 100%; height: 100%;
+	margin: 0; padding: 0; border: 0;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 13px; line-height: 15px;
+	background: #8F09B1;
+	direction: rtl;
+
+}
+img{border: none;}
+a {color:#8D0D19; }
+a:hover {color: #1A446c;}
+
+#header{
+	height: 70px;
+	margin: 0; padding: 0; text-align: right;
+	background: #4D024C; color: #D4E6F4;
+}
+#header h1 {padding: 1em; margin: 0;}
+#main{
+	height: 600px; width: 100%;
+	margin: 0; padding: 0;
+	background: #EEE4B9;
+}
+#footer{
+	clear: both;
+	height: 2em; margin: 0; padding: 1em;
+	text-align: center;
+	background: #4D024C; color: #D4E6F4;
+}
+/* Navigation */
+#navigation {
+	float: right;
+	width: 208px; height: 100%;
+	margin: 0; padding: 0 2em;
+	color: #EEE4B9 ; background: #DF8AEC;
+}
+#navigation a {color: #D4E6F4; text-decoration: none;}
+#navigation a:hover {color:#FFFFFF;}
+ul.subjects{
+	margin: 1em 0; padding-left: 0; list-style: none;
+}
+ul.pages {padding-left: 2em; list-style: square; font-weight: normal;}
+.selected {font-weight: bold;}
+
+/* Page Content */
+#page{
+	float: right; height: 100%;
+	padding-right: 2em; vertical-align: top;
+	background: #EEE4B9;
+}
+#page h2 {color: #F20571; margin-top: 1em;}
+#page h3 {color: #F20571;}
+.view-content{
+	margin: 1em ; padding: 1em; border: 1px solid #999;
+}
+
+div.message{
+	border: 2px solid #F20571;
+	color: #8D0D19; font-weight: bold;
+	margin: 1em 0; padding: 1em;
+}
+
+/* Error */
+div.error{
+ color: ##4D024C; border: 2px solid #4D024C;
+ margin: 1em 0; padding: 1em;
+}
+.error ul {padding: right 2em;}
